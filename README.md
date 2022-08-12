@@ -65,7 +65,7 @@ les methode :
 ```
 
 Methode | endpoint | description
-| :--- | ---: | :---:
+| :--- | :---: | :---:
 POST  | /login | login utilisateur
 POST  | /inscription/ | inscription utilisateur
 GET  | /product/ | List des produits
