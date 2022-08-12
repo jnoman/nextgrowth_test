@@ -1,7 +1,59 @@
-Table, like this one :
+module produit
+
+```
+{
+
+  "reference": "String",
+
+  "name": "String",
+
+  "description": "String",
+
+  "image": "String",
+
+  "variants": [
+
+    {
+
+      "sku": "String",
+
+      "specification": "String",
+
+      "price": "Number"
+
+    }
+
+  ]
+
+}
+```
+
+module utilisateur
+
+```
+{
+
+  "firstName": "String",
+
+  "lastName": "String",
+
+  "email": "String",
+
+  "password": "String",
+
+}
+```
+
+
+
+```
+les methode :
+```
 
 Methode | endpoint | description
 | :--- | ---: | :---:
+POST  | /login | login utilisateur
+POST  | /inscription/ | inscription utilisateur
 GET  | /product/ | List des produits
 POST  | /product/ | Ajout de produit
 DELETE  | 	/product/{:product_id} | Suppression de produit
