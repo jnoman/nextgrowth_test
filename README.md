@@ -1,3 +1,17 @@
+##### nextgrowth_test
+
+## 1. Download or Clone this repo:
+
+#### Download:
+
+```git clone https://github.com/jnoman/nextgrowth_test.git```
+
+
+##  Install dependencies:
+Run:
+
+```npm install```
+
 module produit
 
 ```
